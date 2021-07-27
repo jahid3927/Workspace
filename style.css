@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* header section start here */
+
+.header{
+    width: 100%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.custome-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-top: 20px;
+    z-index: 2;
+    margin-bottom: 80px;
+
+}
+.navbar-brand img{
+    width: 40px;
+}
+
+.nav-item a{
+    margin-left: 50px;
+    color: #6d6d6d !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.navbar .form-control{
+    margin-left: 50px;
+    border-radius: 30px;
+    height: 30px;
+    border:none;
+    background:#e75e87;
+    opacity: 0.5;
+    /* width: 300px; */
+}
+
+.search{
+    position: relative;
+}
+.search i{
+    position: absolute;
+    content: '';
+    top: 7px;
+    right: 15px;
+    color: #555;
+}
+
+/* header section end here */
+
+
+
+
+/* banner section start here */
+.banner{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+/* banner section end here */
+
+
+/* vector section start here */
+
+.vector01{
+    position: absolute;
+    content: '';
+    top: 16% ;
+    left: 0;
+    max-width: 94%;
+
+}
+
+.vector02{
+    position: absolute;
+    content: '';
+    top: 24% ;
+    left: 50%;
+    max-width: 4%;
+
+}
+.vector03{
+    position: absolute;
+    content: '';
+    bottom: -24% ;
+    left: 30%;
+    max-width: 3%;
+
+}
+/* vector section end here */
+
+
+
+
+
+/* main section start here */
+.content{
+margin: 80px 0px 50px;
+}
+
+.content h1{
+    color: #ff8378;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: #707070;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.content button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #ff8378;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    color: white;
+    box-shadow: 0px 10px 15px #999;
+    transition: all 0.3s ease-in-out;
+
+}
+.content i{
+    margin-right: 2px;
+}
+
+.content button:hover{
+    background:#333;
+    color: #ff8378;
+}
+.Cooking{
+    margin-top: 150px;
+    width: 100%;
+    z-index: 10000;
+}
+/* main section end here */
+
+
+/* footer section start here */
+footer{
+    padding-top: 0px;
+    display: 150px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+footer a{
+width: 40px;
+height: 50px;
+padding: 9px 2px;
+border-radius: 4px;
+color: #6d6d6d;
+margin: auto;
+transition: all 0.3s ease-in-out;
+display: inline-block;
+
+/* padding: 10px; */
+text-align: center;
+}
+footer a i{
+    font-size: 25px;
+}
+footer a:hover{
+    background: #ff8378;
+    color: white;
+}
+/* footer section end here */
